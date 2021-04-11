@@ -1,0 +1,33 @@
+div{
+	color: #fff;
+	font-weight: bold;
+	width: 150px;
+	height: 50px;
+	padding: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #000;
+}
+.red{
+	margin-left: 30px; 
+	background-color:red;
+}
+.orange{
+	margin-left: 60px; 
+	background-color:orange;
+}
+.yellow{
+	margin-left: 90px; 
+	background-color:yellow;
+}
+.green{
+	margin-left: 120px; 
+	background-color:green;
+}
+.blue{
+	margin-left: 150px; 
+	background-color:blue;
+}
+.purple{
+	margin-left: 180px; 
+	background-color:purple;
+}

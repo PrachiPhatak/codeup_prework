@@ -1,0 +1,32 @@
+body{
+	background: #ead3cb;
+	font-family: 'Proxima','Open Sans', sans-serif;
+}
+h1{
+	color: #2b4f60;
+
+}
+h2{
+	color: #2b4f60;
+	text-decoration: underline;
+}
+th{
+	background-color: #845460;
+	color: #ead3cb
+}
+td, th {
+	border: 1px solid #2b4f60;
+	padding: 8px;
+}
+tr:nth-child(even){
+	background-color: #bdc7c9;
+}
+tr:hover{
+	background-color: #ddd
+}
+ol{
+	list-style-type: lower-roman;
+}
+a:hover{
+	background-color: #ddd
+}

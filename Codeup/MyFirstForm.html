@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Form</title>
+	<h2>Login</h2>
+	<form method="GET" action="http://request-inspector.glitch.me/">
+		<input type="hidden" name="userId" value="1234">
+		<p>
+			<label for="username">Username</label>
+			<input id="username" name="username" type="text" 
+			placeholder="Enter Username">
+		</p>
+		<p>
+			<label for="password">Password</label>
+			<input id="password" name="password" type="password">
+		</p>
+		<p>
+			<button type="submit">Login</button>
+		</p>
+	</form>
+	<h2>Compose an Email</h2>
+	<form method="POST" action="http://request-inspector.glitch.me/">
+		<p>
+			<label for="recipient">Recipient</label>
+			<input id="recipient" name="recipient" type="text">
+		</p>
+		<p>
+			<label for="subject">Subject</label>
+			<input id="subject" name="subject" type="text">
+		</p>
+		<p>
+			<label for="message">Message</label>
+			<textarea id="message" name="message"></textarea>
+		</p>
+		<p>
+			<label>
+				<input type="checkbox" id="saveMessage" name="saveMessage" checked>Save message to sent folder.
+			</label>
+		</p>
+		<p>
+			<button type="submit">Send</button>
+		</p>
+	</form>
+	<h2>Multiple Choice Test</h2>
+	<form method="POST" action="http://request-inspector.glitch.me/">
+		<p>What is the capital of India?</p>
+		<label>
+			<input type="radio" id="r1" name="r1" value="Mumbai"
+			checked>
+			Mumbai
+		</label>
+		<label>
+			<input type="radio" id="r1" name="r1" value="Delhi"
+			>
+			Delhi
+		</label>
+		<p>What is the capital of USA?</p>
+		<label>
+			<input type="radio" id="r2" name="r2" value="Austin"
+			checked>
+			Austin
+		</label>
+		<label>
+			<input type="radio" id="r1" name="r2" value="Washington"
+			>
+			Washington
+		</label>
+		<p>Which cities did you visit?</p>
+		<label>
+			<input type="checkbox" name="c1[]" value="Paris">
+			Paris
+		</label>
+		<label>
+			<input type="checkbox" name="c1[]" value="Venice">
+			Venice
+		</label>
+		<label>
+			<input type="checkbox" name="c1[]" value="Singapore">
+			Singapore
+		</label>
+		<label>
+			<input type="checkbox" name="c1[]" value="New York">
+			New York
+		</label>
+		<p>
+			<input type="submit" name="submit">
+		</p>
+	</form>
+	<h2>Select Testing</h2>
+	<form method="POST" action="http://request-inspector.glitch.me/">
+		<div>
+		<label for="yesOrNo">Would you like to visit other cities?
+			<select id="yesOrNo" name="yesOrNo">
+				<option value="1">Yes</option>
+				<option value="0">No</option>
+			</select>
+		</label>
+		</div>
+		<div>
+		<label for="yesOrNo">Which cities you might visit?
+			<select id="cities" name="cities[]" multiple>
+				<option value="Dubai">Dubai</option>
+				<option value="Perth">Perth</option>
+				<option value="Tokoyo">Tokoyo</option>
+				<option value="Hawaii">Hawaii</option>
+			</select>
+		</label>
+		</div>
+		<p>
+			<input type="submit" name="submit">
+		</p>
+		
+	</form>
+</head>
+<body>
+
+</body>
+</html>
